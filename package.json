@@ -1,0 +1,23 @@
+{
+  "name": "flux-storefront",
+  "version": "1.0.0",
+  "description": "FLUX Undetected Software Storefront & Customer Portal with SellAuth Integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node tools/check_syntax.js",
+    "sync": "node tools/sync_build.js"
+  },
+  "keywords": [
+    "sellauth",
+    "storefront",
+    "ecommerce",
+    "flux"
+  ],
+  "author": "FLUX",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
